@@ -9,7 +9,7 @@ let package = Package(
         .library(name: "AdsEyeAdMob", targets: ["AdsEyeAdMobLinker"])
     ],
     dependencies: [
-        .package(url: "https://github.com/AdsEye/AdsEyeSDK.git", exact: "1.4.22"),
+        .package(url: "https://github.com/AdsEye/AdsEyeSDK.git", exact: "1.4.23"),
               .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", exact: "13.3.0")
     ],
     targets: [
@@ -45,8 +45,8 @@ let package = Package(
 ),
               .binaryTarget(
     name: "AdsEyeAdmobAdapter",
-    url: "https://cpc-static-docs.oss-cn-beijing.aliyuncs.com/adseye_sdk_ios/1.4.22/spm/AdsEyeAdmobAdapter-1.4.22-10091517.zip",
-    checksum: "024da274aabe8fd3e6aa551573aff3ae17adb373690f7229a22371cc6e293969"
+    url: "https://cpc-static-docs.oss-cn-beijing.aliyuncs.com/adseye_sdk_ios/1.4.23/spm/AdsEyeAdmobAdapter-1.4.23-10141536.zip",
+    checksum: "10569424ee7d10bd67a8ad0bf587be7ab90e250ddcf7f8284e2b1a4605639fc7"
 )
     ]
 )
